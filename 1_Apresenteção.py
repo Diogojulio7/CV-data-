@@ -13,7 +13,7 @@ st.set_page_config(page_title="CV Diogo Julio", layout="wide")
 st.sidebar.markdown("Desenvolvido por Diogo Julio Oliveira")
 
 # Adicionando logo com streamlit-extras
-# add_logo("image.jpg")
+add_logo("image.jpg")
 
 # Adicionando o logo
 st.logo("image.jpg")
