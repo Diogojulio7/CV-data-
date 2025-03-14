@@ -15,7 +15,7 @@ st.logo("image.jpg")
 # Adicionando o logo no body
 st.image("image.jpg", width=150)
 
-
+df = st.session_state["data"]
 
 tipos='Todos'
 tipos = np.append(tipos,df["Ano"].unique())
